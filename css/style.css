@@ -1,0 +1,58 @@
+body {
+  background-color: #e8dfdf;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.random-btn {
+  font-size: 14px;
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 250ms linear;
+  border-radius: 5px;
+}
+
+.random-btn:hover,
+.random-btn:focus {
+  background-color: #27ae60;
+}
+
+.result {
+  font-size: 76px;
+  font-weight: 500;
+  min-height: 100px;
+}
+
+.chose-input {
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 28px;
+  padding-left: 15px;
+  border: 1px solid #303030;
+  border-radius: 5px;
+}
+
+.used-number {
+  font-size: 30px;
+}
+
+.random-desc {
+  font-size: 22px;
+  font-style: italic;
+}
