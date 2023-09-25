@@ -1,0 +1,1 @@
+# bc-mini-tech-js
